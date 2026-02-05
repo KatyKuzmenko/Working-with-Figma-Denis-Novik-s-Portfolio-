@@ -150,3 +150,58 @@ body {
   width: 100%;
   margin-bottom: 40px;
 }
+
+.contacts {
+  padding-bottom: 0;
+}
+
+.contacts__header {
+  width: 280px;
+  margin: 0 auto 60px;
+}
+
+.contacts__heading {
+  margin-bottom: 20px;
+}
+
+.contacts__text {
+  width: 100%;
+}
+
+.contacts__button {
+  display: block;
+  margin: 0 auto 30px;
+  width: 180px;
+  height: 44px;
+  background-color: black;
+  color: white;
+  border-radius: 22px;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+.socials {
+  margin: 0 auto 60px;
+  width: 310px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.socials__link {
+  width: 40px;
+  height: 40px;
+}
+
+.socials__icon {
+}
+
+.socials__text {
+  text-align: center;
+  width: 200px;
+  margin: 0 auto;
+  color: #828282;
+  font-size: 14px;
+}
