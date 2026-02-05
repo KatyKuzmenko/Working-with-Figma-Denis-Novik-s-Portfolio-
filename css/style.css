@@ -133,6 +133,20 @@ body {
   margin: 0 auto;
 }
 
+.portfolio__item {
+  margin-top: 50px;
+}
+
+.portfolio__item-name {
+  width: 200px;
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: underline;
+}
+
 .portfolio__item-img {
   width: 100%;
+  margin-bottom: 40px;
 }
