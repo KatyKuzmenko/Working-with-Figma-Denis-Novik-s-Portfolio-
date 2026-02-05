@@ -31,6 +31,10 @@ body {
   color: #828282;
 }
 
+.menu__link:hover {
+  font-weight: bold;
+}
+
 .active {
   color: black;
 }
@@ -181,6 +185,11 @@ body {
   letter-spacing: 0.1em;
 }
 
+.contacts__button:hover {
+  background-color: white;
+  color: black;
+}
+
 .socials {
   margin: 0 auto 60px;
   width: 310px;
@@ -195,7 +204,8 @@ body {
   height: 40px;
 }
 
-.socials__icon {
+.socials__icon:hover {
+  opacity: 0.5;
 }
 
 .socials__text {
